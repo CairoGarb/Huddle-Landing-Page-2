@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+    /* Neutral */
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+* {margin: 0; padding: 0; text-decoration: none; list-style-type: none;}
+
+body {
+    min-height: 100vh;
+    min-width: 1440px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: cover;
+    padding: 4rem ;
+    margin-bottom: 10rem;
+}
+
+/* Header */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.nav-btn {
+    padding: .6rem 4rem;
+    border: none;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.4px 4px hsla(192, 97%, 13%, 0.174);
+}
+
+.nav-btn:hover {
+    color: var(--Grayish-Blue);
+    cursor: pointer;
+}
+/* Header */
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-button {
+    width: 50%;
+}
+
+.text-button h1 {
+    width: 400px;
+    padding-bottom: 2rem;
+}
+
+.text-button p {
+    padding-bottom: 2rem;
+}
+
+.main-btn {
+    padding: 1rem 4rem;
+    border: none;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 30px;
+    background-color: var(--Pink);
+    color: #fff;
+    box-shadow: 0 0.4px 4px var(--Pink);
+}
+
+.main-btn:hover {
+    background-color: hsl(322, 91%, 73%);
+    color: var(--Very-Pale-Cyan);
+    cursor: pointer;
+}
+
+.main-img img {
+    width: 100%;
+}
+/* Main Container */
+
+/* Grow Together Section */
+.growTogether {
+    margin: 0 6rem 2rem 6rem;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.101);
+    justify-content: space-between;
+    padding: 4rem 0 4rem 10rem;
+    align-items: center;
+}
+
+.gt-text h2 {
+    padding-bottom: 1rem;
+}
+
+.gt-text p {
+    width: 50%;
+    color: var(--Grayish-Blue);
+}
+
+.gt-img img {
+    width: 75%;
+    height: 100%;
+    right: 0;
+}
+/* Grow Together Section */
+
+/* Flowing Conversations Section */
+.flowConv {
+    margin: 0 6rem 2rem 6rem;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.101);
+    justify-content: space-between;
+    padding: 4rem 0 4rem 10rem;
+    align-items: center;
+}
+
+.fc-text h2 {
+    padding-bottom: 1rem;
+}
+
+.fc-text p {
+    width: 60%;
+    color: var(--Grayish-Blue);
+}
+
+.fc-img img {
+    width: 75%;
+    height: 100%;
+    right: 0;
+}
+/* Flowing Conversations Section */
+
+/* Your Users Section */
+.yourUsers {
+    margin: 0 6rem 20rem 6rem;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.101);
+    justify-content: space-between;
+    padding: 4rem 0 4rem 10rem;
+    align-items: center;
+}
+
+.yu-text h2 {
+    padding-bottom: 1rem;
+}
+
+.yu-text p {
+    width: 60%;
+    color: var(--Grayish-Blue);
+}
+
+.yu-img img {
+    width: 75%;
+    height: 100%;
+    right: 0;
+}
+/* Your Users Section */
+
+/* Ready To Build Your Community Section */
+.rtbyc {
+    padding: 4rem 6rem 2.5rem 6rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.118);
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2520px;
+}
+
+.rtbyc h2 {
+    padding-bottom: 1.5rem;
+}
+
+.rtb-btn {
+    padding: 1.5rem 5rem;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 40px;
+    background-color: var(--Pink);
+    color: #fff;
+    box-shadow: 0 0.4px 4px var(--Pink);
+}
+
+.rtb-btn:hover {
+    background-color: hsl(322, 91%, 73%);
+    color: var(--Very-Pale-Cyan);
+    cursor: pointer;
+}
+/* Ready To Build Your Community Section */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 8rem;
+    background-color: var(--Very-Dark-Cyan);
+    color: var(--Very-Pale-Cyan);
+}
+
+/* Footer: Contact Div */
+.contact {
+    width: 35%;
+}
+
+.local, .phone, .email {
+    display: flex;
+    padding-top: 1.5rem;
+    align-items: flex-start;
+}
+
+.local p {
+    width: 400px;
+}
+
+
+.contact p {
+    padding-left: 1rem;
+}
+/* Footer: Contact Div */
+
+/* Footer: About Us Div */
+.aboutUs {
+    width: 25%;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.aboutUs p {
+    width: 120px;
+}
+
+.aboutUs p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Footer: About Us Div */
+
+/* Footer: Career Div */
+.career {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.career p{
+    width: 120px;
+}
+
+.career p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Footer: Career Div */
+
+/* Footer: Social Media Div */
+.social-media {
+    width: 15%;
+    margin-top: -4rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media i {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.social-media i:hover {
+    cursor: pointer;
+    color: var(--Pink);
+    border-color: var(--Pink);
+    transition: .2s ;
+}
+/* Footer: Social Media Div */
+
+.copy {
+    position: absolute;
+    margin-top: 32rem;
+    color: var(--Very-Pale-Cyan);
+    font-size: 11px;
+}
+
+/* Responsiveness */
+/* Smaller Laptops */
+@media screen and (max-width: 1400px) {
+    body {
+        min-width: 1200px;
+        max-width: 1400px;
+    }
+
+    .rtbyc {
+        top: 2300px;
+    }
+}
+/* Tablets*/
+@media screen and (max-width: 900px) {
+    body {
+        min-width: 750px;
+        max-width: 900px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    figure, img {
+        width: 100%;
+        display: block;
+    }
+    main {
+        background-color: var(--Very-Pale-Cyan);
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        padding: 1rem 0;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        width: auto;
+    }
+
+    nav img {
+        width: 200px;
+    }
+
+    .nav-btn {
+        width: 200px;
+        padding: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+        padding: 4rem 0;
+    }
+
+    .main-img img {
+        width: 750px;
+        margin: auto;
+        display: block;
+    }
+
+    .main-btn {
+        width: 50%;
+        display: block;
+        padding: 1rem 2rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    .text-button {
+        width: auto;
+    }
+
+    .text-button h1 {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text-button p {
+        width: 750px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .growTogether {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .gt-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .gt-text h2 {
+        width: auto;
+    }
+
+    .gt-text p {
+        width: 500px;
+        margin: auto;
+    }
+
+    .gt-img img {
+        margin: auto;
+        width: 500px;
+    }
+
+    .flowConv {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .fc-img img {
+        width: 500px;
+        margin: auto;
+    }
+
+    .fc-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .fc-text h2 {
+        width: auto;
+    }
+
+    .fc-text p {
+        width: 500px;
+        margin: auto;
+    }
+
+    .yourUsers {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .yu-img img {
+        width: 500px;
+        margin: auto;
+    }
+
+    .yu-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .yu-text h2 {
+        width: auto;
+    }
+
+    .yu-text p {
+        width: 500px;
+        margin: auto;
+    }
+
+    footer {
+        width: auto;
+        padding: 12rem 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 14rem;
+    }
+
+    .contact {
+        padding: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .local {
+        width: auto;
+    }
+
+    .local p, .email p, .phone p {
+        font-size: 16px;
+        padding-left: 0;
+        width: 75%;
+    }
+
+    .local figure, .email figure, .phone figure {
+        max-width: 10%;
+    }
+
+    .local img, .email img, .phone img {
+        width: auto;
+    }
+
+    .logo-footer img {
+        width: 200px;
+    }
+
+    .aboutUs {
+        padding: 2rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .career {
+        padding: 1rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .social-media {
+        padding: 4rem 0 0 0;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .copy {
+        margin: 0 auto;
+        padding-top: 7rem;
+    }
+
+    .rtbyc {
+        width: 600px;
+        margin: auto;
+        padding: 3rem 1rem;
+        top: 3050px;
+        font-size: 16px;
+    }
+
+    .rtb-btn {
+        font-size: 14px;
+        padding: 1rem;
+        width: 75%;
+    }
+}
+/* Mobiles */
+@media screen and (max-width: 450px) {
+    body {
+        min-width: 371px;
+        max-width: 450px;
+        margin: auto;
+        font-size: 14px;
+
+    }
+
+    figure, img {
+        width: 100%;
+        display: block;
+    }
+    main {
+        background-color: var(--Very-Pale-Cyan);
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    nav img {
+        width: 150px;
+    }
+
+    .nav-btn {
+        width: 200px;
+        padding: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 4rem 0;
+    }
+
+    .main-img img {
+        width: 370px;
+        margin: auto;
+        display: block;
+    }
+
+    .main-btn {
+        width: 100%;
+        padding: 1rem 2rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    .text-button {
+        width: 370px;
+    }
+
+    .text-button h1 {
+        width: 370px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text-button p {
+        width: 265px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    .growTogether {
+        width: 370px;
+        padding: 2rem 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .gt-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .gt-text h2 {
+        width: 370px;
+    }
+
+    .gt-text p {
+        width: 300px;
+        margin: auto;
+    }
+
+    .gt-img img {
+        margin: auto;
+        width: 300px;
+    }
+
+    .flowConv {
+        width: 300px;
+        padding: 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .fc-img img {
+        width: 300px;
+        margin: auto;
+    }
+
+    .fc-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .fc-text h2 {
+        width: 370px;
+    }
+
+    .fc-text p {
+        width: 265px;
+        margin: auto;
+    }
+
+    .yourUsers {
+        width: 300px;
+        padding: 2rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .yu-img img {
+        width: 300px;
+        margin: auto;
+    }
+
+    .yu-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .yu-text h2 {
+        width: 370px;
+    }
+
+    .yu-text p {
+        width: 300px;
+        margin: auto;
+    }
+
+    footer {
+        width: auto;
+        padding: 10rem 1rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 14rem;
+    }
+
+    .contact {
+        padding: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .local {
+        width: auto;
+    }
+
+    .local p, .email p, .phone p {
+        font-size: 16px;
+        padding-left: 0;
+        width: 75%;
+    }
+
+    .local figure, .email figure, .phone figure {
+        max-width: 10%;
+    }
+
+    .local img, .email img, .phone img {
+        width: auto;
+    }
+
+    .logo-footer img {
+        width: 200px;
+    }
+
+    .aboutUs {
+        padding: 2rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .career {
+        padding: 1rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .social-media {
+        padding: 4rem 0 0 0;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .copy {
+        margin: 0 auto;
+        padding-top: 7rem;
+    }
+
+    .rtbyc {
+        width: 350px;
+        margin: auto;
+        padding: 3rem 1rem;
+        top: 2500px;
+        font-size: 14px;
+    }
+    
+    .rtb-btn {
+        font-size: 14px;
+        padding: 1rem;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 370px) {
+    body {
+        min-width: 300px;
+        max-width: 370px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    figure, img {
+        width: 100%;
+        display: block;
+    }
+    main {
+        background-color: var(--Very-Pale-Cyan);
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        padding: 1rem 0;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: auto;
+    }
+
+    nav img {
+        width: 150px;
+    }
+
+    .nav-btn {
+        width: 200px;
+        padding: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+        padding: 4rem 0;
+    }
+
+    .main-img img {
+        width: 320px;
+        margin: auto;
+        display: block;
+    }
+
+    .main-btn {
+        width: 75%;
+        display: block;
+        padding: 1rem 2rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    .text-button {
+        width: auto;
+    }
+
+    .text-button h1 {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text-button p {
+        width: 265px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .growTogether {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .gt-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .gt-text h2 {
+        width: auto;
+    }
+
+    .gt-text p {
+        width: 300px;
+        margin: auto;
+    }
+
+    .gt-img img {
+        margin: auto;
+        width: 200px;
+    }
+
+    .flowConv {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .fc-img img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .fc-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .fc-text h2 {
+        width: auto;
+    }
+
+    .fc-text p {
+        width: 265px;
+        margin: auto;
+    }
+
+    .yourUsers {
+        width: auto;
+        padding: 2rem 2rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .yu-img img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .yu-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .yu-text h2 {
+        width: auto;
+    }
+
+    .yu-text p {
+        width: 300px;
+        margin: auto;
+    }
+
+    footer {
+        width: auto;
+        padding: 10rem 1rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 14rem;
+    }
+
+    .contact {
+        padding: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .local {
+        width: auto;
+    }
+
+    .local p, .email p, .phone p {
+        font-size: 16px;
+        padding-left: 0;
+        width: 75%;
+    }
+
+    .local figure, .email figure, .phone figure {
+        max-width: 10%;
+    }
+
+    .local img, .email img, .phone img {
+        width: auto;
+    }
+
+    .logo-footer img {
+        width: 200px;
+    }
+
+    .aboutUs {
+        padding: 2rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .career {
+        padding: 1rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .social-media {
+        padding: 4rem 0 0 0;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .copy {
+        margin: 0 auto;
+        padding-top: 7rem;
+    }
+
+    .rtbyc {
+        width: 300px;
+        margin: auto;
+        padding: 3rem 1rem;
+        top: 2240px;
+        font-size: 12px;
+    }
+
+    .rtb-btn {
+        font-size: 14px;
+        padding: 1rem;
+        width: 75%;
+    }
+}
